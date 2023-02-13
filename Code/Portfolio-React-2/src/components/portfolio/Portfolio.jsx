@@ -1,10 +1,8 @@
 import React from "react";
 import './portfolio.css';
-import IMG1 from '../../assets/mockup2.png'
-import IMG2 from '../../assets/amortisseur.jpg'
-import IMG3 from '../../assets/me-5.png'
-import IMG4 from '../../assets/me-5.png'
-import IMG5 from '../../assets/me-5.png'
+import IMG1 from '../../assets/origami_cover2.jpg'
+import IMG2 from '../../assets/proquinter_cover.png'
+import IMG3 from '../../assets/pilot-in-com.jpg'
 
 // DON'T USE THE iMAGES IN PRODUCTION
 
@@ -12,37 +10,23 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: "Origami App - Rencontrez aujourd'hui vos amis de demain",
+        title: "Origami App - Application mobile : NestJS, Typescript, Firebase, Flutter & Dart",
         github: 'https://github.com/85dev/landingOrigami',
         demo: 'https://nameless-fortress-01398.herokuapp.com/'
     },
     {
         id: 2,
         image: IMG2,
-        title: 'Proquinter - Application web avec back-office, gestion en temps réel des stocks',
-        github: 'https://github.com/',
-        demo: 'https://dribbble.com'
+        title: 'Proquinter - Application web avec back-office : Ruby On Rails, SQL, Html, Css & Vanilla JS',
+        github: 'https://github.com/85dev/proquinter_web_app',
+        demo: 'https://proquinter.com'
     },
     {
         id: 3,
         image: IMG3,
-        title: 'Crypto...',
-        github: 'https://github.com/',
-        demo: 'https://dribbble.com'
-    },
-    {
-        id: 4,
-        image: IMG4,
-        title: 'Crypto...',
-        github: 'https://github.com/',
-        demo: 'https://dribbble.com'
-    },
-    {
-        id: 5,
-        image: IMG5,
-        title: 'Crypto...',
-        github: 'https://github.com/',
-        demo: 'https://dribbble.com'
+        title: 'Intégration landing page - Desktop Only : Vanilla JS, Html & CSS',
+        github: 'https://github.com/85dev',
+        demo: 'https://integration-test-dev.000webhostapp.com/'
     }
 ]
 

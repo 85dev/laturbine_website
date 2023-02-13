@@ -92,21 +92,31 @@ h4 {
         margin-top: 6rem;
     }
 
-    .me {
-        display: none;
-    }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 
 @media screen and (max-width:600px) {
-
     .container {
         width: var(--container-width-ms);
     }
 
     section>h2 {
         margin-bottom: 2rem;
+    }
+
+    .cta {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:400px) {
+    header {
+        margin-bottom: 5rem;
+    }
+
+    .cta {
+        display: inline-block;
     }
 }
 

@@ -2,8 +2,8 @@ import React from "react";
 import './about.css';
 import ME from '../../assets/me-5.png'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {GiComputing} from 'react-icons/gi'
 
 const About = () => {
     return (
@@ -28,9 +28,9 @@ const About = () => {
                         </article>
 
                         <article className="about__card">
-                            <FiUsers className="about__icon"/>
-                            <h5>Clients</h5>
-                            <small>4+ Worldwide</small>
+                            <GiComputing className="about__icon"/>
+                            <h5>Technologies</h5>
+                            <small>Web languages</small>
                         </article>
 
                         <article className="about__card">
@@ -41,7 +41,13 @@ const About = () => {
 
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vero laborum animi voluptas quam, tempore veritatis repudiandae, quidem obcaecati fugiat adipisci minima possimus qui vel dolore, ducimus voluptatum optio tempora!</p>
+                    <p> 
+                        After obtaining my Master's degree in Marketing & Communication, 
+                        I decided to add a string to my bow and discovered web development 
+                        during my studies. I then obtained a Bachelor in Web Development at 
+                        Le Wagon school. With solid professional experience in web development, 
+                        UX/UI design & animation, I am sensitive to design, the excitement 
+                        of new technologies and code efficiency. </p>
 
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
